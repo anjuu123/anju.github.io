@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
+import './Header.css'
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -60,7 +61,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/projects"
                 onClick={() => updateExpanded(false)}
               >
                 Projects
@@ -70,24 +71,13 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                Resume
+               Contact
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Contact
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn"></Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

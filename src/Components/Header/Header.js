@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import './Header.css'
+import {SiOverleaf} from 'react-icons/si'
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -27,9 +28,10 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <h1>Anju</h1>
+        <Navbar.Brand href="/" className="d-flex" style={{fontSize:"2.5rem"}}>
+          <SiOverleaf />
         </Navbar.Brand>
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -51,16 +53,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                About
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to="/projects"
                 onClick={() => updateExpanded(false)}
               >
@@ -68,15 +60,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/contact"
-                onClick={() => updateExpanded(false)}
-              >
-               Contact
-              </Nav.Link>
-            </Nav.Item>
 
           </Nav>
         </Navbar.Collapse>

@@ -1,7 +1,9 @@
 .contact-social {
     text-align: center !important;
-    padding-top: 25px;
-    color: teal !important;
+    padding-top: 50px;
+    color: #fff !important;
+    background-color: teal;
+    margin-top: 40px;
   }
   
   .contact-social-links {

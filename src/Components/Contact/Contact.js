@@ -1,8 +1,6 @@
 import React from 'react'
 import {  Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import {AiFillGithub,} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import './Contact.css'
 

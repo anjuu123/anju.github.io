@@ -6,7 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import Typewriter from 'typewriter-effect';
 import Skills from "../Skills/Skills"
 import Contact from "../Contact/Contact";
-import Resume from "../../Assests/Images/Anju Dhungana .pdf"
+import Resume from "../../Assests/Images/Anju Dhungana.pdf"
 
 function Home() {
   return (

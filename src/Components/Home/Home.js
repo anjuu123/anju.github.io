@@ -6,6 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import Typewriter from 'typewriter-effect';
 import Skills from "../Skills/Skills"
 import Contact from "../Contact/Contact";
+import Resume from "../../Assests/Images/Anju Dhungana .pdf"
 
 function Home() {
   return (
@@ -41,7 +42,7 @@ function Home() {
             </p>
             <Button
             variant="danger"
-            href=""
+            href={Resume}
             target="_blank"
             style={{ maxWidth: "250px", marginTop:"20px" ,height:"50px", fontSize:"20px"}}
           >

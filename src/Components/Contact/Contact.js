@@ -1,5 +1,4 @@
 import React from 'react'
-import {  Row, Col } from "react-bootstrap";
 import {AiFillGithub,} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import './Contact.css'
@@ -7,8 +6,7 @@ import './Contact.css'
 export default function Contact() {
   return (
     <>
-    <Row>
-          <Col md={12} className="contact-social">
+          <div md={12} className="contact-social">
             <h1>CONNECT WITH ME ON</h1>
            
             <ul className="contact-social-links">
@@ -34,8 +32,8 @@ export default function Contact() {
                 </a>
               </li>
             </ul>
-          </Col>
-        </Row>
+          </div>
+        
     </>
   )
 }

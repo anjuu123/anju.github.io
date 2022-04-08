@@ -1,9 +1,14 @@
 .contact-social {
     text-align: center !important;
-    padding-top: 50px;
+    padding-top: 30px;
     color: #fff !important;
     background-color: teal;
     margin-top: 40px;
+  }
+
+  .contact-social h1
+  {
+    font-size: 30px;
   }
   
   .contact-social-links {
@@ -17,10 +22,10 @@
   .contact-icons {
     position: relative !important;
     display: inline-block !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 70px !important;
+    height: 70px !important;
     text-align: center !important;
-    font-size: 1.5em !important;
+    font-size: 2em !important;
     line-height: 2em !important;
     background: rgba(255, 255, 255, 0.972) !important;
     border-radius: 50% !important;

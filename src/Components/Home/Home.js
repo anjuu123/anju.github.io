@@ -1,7 +1,8 @@
 
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import './Home.css'
+import { Container, Row, Col,Button } from "react-bootstrap";
+import './Home.css';
+import { AiOutlineDownload } from "react-icons/ai";
 import Typewriter from 'typewriter-effect';
 import Skills from "../Skills/Skills"
 import Contact from "../Contact/Contact";
@@ -38,7 +39,15 @@ function Home() {
               trends. Skilled in visualizing, designing, developing, and
               deploying software .
             </p>
-
+            <Button
+            variant="danger"
+            href=""
+            target="_blank"
+            style={{ maxWidth: "250px", marginTop:"20px" ,height:"50px", fontSize:"20px"}}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download CV
+          </Button>
               <div style={{ padding: 50, textAlign: "left" }}>
               </div>
             </Col>

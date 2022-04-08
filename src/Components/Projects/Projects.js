@@ -6,8 +6,6 @@ import bikri from '../../Assests/Images/bikri.png'
 import health from '../../Assests/Images/health.png'
 
 
-
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -46,6 +44,7 @@ function Projects() {
               link="https://anjuu123.github.io/Bikri.github.io/"
             />
           </Col>
+         
 
         </Row>
       </Container>

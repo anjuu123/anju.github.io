@@ -1,3 +1,5 @@
+/* for mobile */
+
 .wave {
   animation-name: wave-animation;
   animation-duration: 2.1s;
@@ -40,33 +42,29 @@
   }
 }
 
-img
-{
-  width: 500px;
-  margin-left: -55px;
-  height: 500px;
-}
-
-.home-header {
-  padding-top: 50px !important;
-  padding-left: 60rem;
-}
 
 .home-section {
-  background: black;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  background: teal;
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
 }
 
 .content {
-  padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  padding: 9rem 0 1rem !important;
+  color: #fff;
   text-align: left;
 }
 
+.home-header h1 {
+  padding-top: 10px !important;
+  margin-left: -25px;
+}
+
+
+
 .heading {
   font-size: 2.4em !important;
-  padding-left: 60px !important;
+  padding-left: 63px !important;
 }
 
 .heading-name {
@@ -77,8 +75,8 @@ img
 
 .Typewriter__wrapper {
   font-size: 2 !important;
-  color: teal !important;
-  font-weight: 600 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
 
 }
 
@@ -89,18 +87,18 @@ img
 }
 
 .home-about-body {
-  font-size: 25px;
-  margin-top: 60px;
-  margin-bottom: 15px;
+  font-size: 23px;
+  margin-left: 9px;
+  margin-top: 50px;
+ 
+  
 }
 
 
-@media (max-width: 767px) {
-  .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
-    position: absolute !important;
-  }
+
+
+ /* @media (max-width: 767px) {
+ 
 
   .Typewriter__cursor {
     display: none !important;
@@ -117,11 +115,4 @@ img
     margin-bottom: 15px;
   }
 
-  img
-{
-  width: 500px;
-  height: 500px;
-  margin-top:-80px;
-  
-}
-}
+}  */

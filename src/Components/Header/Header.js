@@ -25,7 +25,6 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
     >
       <Container>
         <Navbar.Brand href="#" className="d-flex" style={{fontSize:"2.5rem"}}>

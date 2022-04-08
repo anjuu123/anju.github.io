@@ -7,15 +7,15 @@ import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
-    <div>
+      <div>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />}/>
       </Routes>
-      <Contact />
-    </div>
-
+    
+         <Contact />
+</div>
   );
 }
 

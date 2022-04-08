@@ -1,8 +1,18 @@
+
+/* for mobile */
+
+.skills-h1
+  {
+     margin: 60px;
+     font-size: 50px;
+     font-weight: bold;
+  }
+
 .tech-icons {
     font-size: 6em !important;
-    color: #fff;
-    background:teal;
-    margin: 35px !important;
+    color: teal;
+    background:black;
+    margin: 15px !important;
     opacity: 0.93 !important;
     vertical-align: middle !important;
     height: 145px;
@@ -10,42 +20,29 @@
     text-align: center !important;
     border-radius: 50% !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    box-shadow: 4px 5px 4px 3px rgba(182, 22, 197, 0.137) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
     
   }
 
-  .skills-h1
-  {
-     margin: 60px;
-     font-size: 50px;
-     font-weight: bold;
-  }
-  
-  @media (max-width: 767px) {
-    .tech-icons {
-      margin: 15px !important;
-    }
-  }
-  
   .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
     border: 2.2px solid teal !important;
   }
+
+
   .tech-icon-images {
     padding: 20px !important;
     line-height: 1.6 !important;
   }
   
-  .quote-card-view {
-    border: none !important;
-    color: white !important;
-    background-color: transparent !important;
+  
+  /* @media (max-width: 768px) {
+    
+  
+  
   }
   
-  
-  
-  
-  
+   */

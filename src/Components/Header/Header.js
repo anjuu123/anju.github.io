@@ -28,7 +28,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex" style={{fontSize:"2.5rem"}}>
+        <Navbar.Brand href="#" className="d-flex" style={{fontSize:"2.5rem"}}>
           <SiOverleaf />
         </Navbar.Brand>
 

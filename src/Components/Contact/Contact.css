@@ -46,3 +46,21 @@
     color: teal !important;
   }
   
+
+
+  @media (max-width: 768px) {
+    .contact-social {
+     margin-top: 15rem !important;
+    }
+  }
+
+
+
+
+  @media (min-width: 1024px) {
+    .contact-social {
+      margin-top: 15rem !important;
+     }
+
+
+  }

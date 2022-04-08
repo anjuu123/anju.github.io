@@ -6,6 +6,7 @@ import Skills from '../Skills/Skills'
 import { AiOutlineDownload } from "react-icons/ai";
 import Typewriter from 'typewriter-effect';
 import Resume from "../../Assests/Images/Anju Dhungana.pdf"
+import Anju from '../../Assests/Images/anjudhungana.jpg'
 
 function Home() {
   return (
@@ -52,7 +53,7 @@ function Home() {
               </div>
             </Col>
             <Col md={4}>
-             {/* <img src="https://png.pngtree.com/png-vector/20190329/ourlarge/pngtree-vector-avatar-icon-png-image_889398.jpg"></img> */}
+           <img src={Anju}className="my-img"></img>
             </Col>
           </Row>
         </Container>

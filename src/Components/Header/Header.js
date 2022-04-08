@@ -27,7 +27,7 @@ function NavBar() {
       expand="md"
     >
       <Container>
-        <Navbar.Brand href="#" className="d-flex" style={{fontSize:"2.5rem"}}>
+        <Navbar.Brand href="#" className="d-flex">
           <SiOverleaf />
         </Navbar.Brand>
 

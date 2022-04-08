@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/anju.github.io/static/css/main.f9e71987.css",
-    "main.js": "/anju.github.io/static/js/main.3b9ea7b7.js",
-    "static/js/787.a2cb61a6.chunk.js": "/anju.github.io/static/js/787.a2cb61a6.chunk.js",
-    "static/media/bikri.png": "/anju.github.io/static/media/bikri.f90aee3f606edcae2fdf.png",
-    "static/media/ecommerce.png": "/anju.github.io/static/media/ecommerce.68cf12bf47b6cac7fede.png",
-    "static/media/health.png": "/anju.github.io/static/media/health.240558c404eb73739130.png",
-    "index.html": "/anju.github.io/index.html",
-    "main.f9e71987.css.map": "/anju.github.io/static/css/main.f9e71987.css.map",
-    "main.3b9ea7b7.js.map": "/anju.github.io/static/js/main.3b9ea7b7.js.map",
-    "787.a2cb61a6.chunk.js.map": "/anju.github.io/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/my-portfolio/static/css/main.f9e71987.css",
+    "main.js": "/my-portfolio/static/js/main.ad64800d.js",
+    "static/js/787.a2cb61a6.chunk.js": "/my-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/bikri.png": "/my-portfolio/static/media/bikri.f90aee3f606edcae2fdf.png",
+    "static/media/ecommerce.png": "/my-portfolio/static/media/ecommerce.68cf12bf47b6cac7fede.png",
+    "static/media/health.png": "/my-portfolio/static/media/health.240558c404eb73739130.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.f9e71987.css.map": "/my-portfolio/static/css/main.f9e71987.css.map",
+    "main.ad64800d.js.map": "/my-portfolio/static/js/main.ad64800d.js.map",
+    "787.a2cb61a6.chunk.js.map": "/my-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9e71987.css",
-    "static/js/main.3b9ea7b7.js"
+    "static/js/main.ad64800d.js"
   ]
 }

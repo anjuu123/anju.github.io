@@ -2,17 +2,18 @@
     font-size: 6em !important;
     color: #fff;
     background:teal;
-    margin: 45px !important;
+    margin: 35px !important;
     opacity: 0.93 !important;
     vertical-align: middle !important;
-    height: 165px;
-    width: 165px;
+    height: 145px;
+    width: 145px;
     text-align: center !important;
     border-radius: 50% !important;
     display: table !important;
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
+    
   }
 
   .skills-h1

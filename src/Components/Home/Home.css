@@ -43,13 +43,13 @@
 img
 {
   width: 500px;
-  margin-left: 10rem;
+  margin-left: -55px;
   height: 500px;
 }
 
 .home-header {
   padding-top: 50px !important;
-  padding-left: 30rem;
+  padding-left: 60rem;
 }
 
 .home-section {
@@ -109,19 +109,19 @@ img
   .home-header {
     padding-top: 50px !important;
     padding-bottom: 40px !important;
-    padding-left: 4rem !important;
+    padding-left: 3rem !important;
   }
 
   .home-about-body {
-    margin-top: 110px;
+    margin-top: 150px;
     margin-bottom: 15px;
   }
 
   img
 {
   width: 500px;
-  margin-left: 2rem;
   height: 500px;
   margin-top:-80px;
+  
 }
 }

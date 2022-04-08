@@ -58,7 +58,6 @@ function Home() {
           </Row>
         </Container>
         <Skills/>
-        <Contact />
     </section>
   );
 }

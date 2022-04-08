@@ -10,6 +10,8 @@
     transition: all 0.3s ease-out 0s !important;
     padding: 0.3rem 2rem !important;
     font-size: 1.5rem !important;
+    margin-right: 3rem;
+    
   }
   
   .navbar-toggler {

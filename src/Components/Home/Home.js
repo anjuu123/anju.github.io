@@ -44,6 +44,7 @@ function Home() {
             variant="danger"
             href={Resume}
             target="_blank"
+            download="Anju Dhungana.pdf"
             style={{ maxWidth: "250px", marginTop:"15px",marginLeft:"15px" ,height:"50px", fontSize:"20px"}}
           >
             <AiOutlineDownload />

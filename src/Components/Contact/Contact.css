@@ -2,15 +2,16 @@
 /* FOR MOBILE */
 .contact-social {
     text-align: center !important;
-    padding-top: 30px;
     color: #fff !important;
     background-color: teal;
-    margin-top: 40px;
+   padding-top: -50px;
+    
   }
 
   .contact-social h1
   {
     font-size: 30px;
+    padding: 20px;
   }
   
   .contact-social-links {

@@ -10,19 +10,18 @@
 
 .tech-icons {
     font-size: 6em !important;
-    color: teal;
-    background:black;
     margin: 15px !important;
     opacity: 0.93 !important;
     vertical-align: middle !important;
-    height: 145px;
-    width: 145px;
+    height: 150px;
+    width: 160px;
     text-align: center !important;
     border-radius: 50% !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(182, 22, 197, 0.137) !important;
+    box-shadow: 4px 5px 4px 3px teal !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
+   
     
   }
 
@@ -34,7 +33,7 @@
 
 
   .tech-icon-images {
-    padding: 20px !important;
+    padding: 10px !important;
     line-height: 1.6 !important;
   }
   

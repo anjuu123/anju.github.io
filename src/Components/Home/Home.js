@@ -5,7 +5,7 @@ import './Home.css';
 import Skills from '../Skills/Skills'
 import { AiOutlineDownload } from "react-icons/ai";
 import Typewriter from 'typewriter-effect';
-import Resume from "../../Assests/Images/Anju Dhungana.pdf"
+import Resume from '../../Assests/Images/Anju Dhungana .pdf'
 import Anju from '../../Assests/Images/anjudhungana.jpg'
 
 function Home() {
@@ -54,7 +54,7 @@ function Home() {
               </div>
             </Col>
             <Col md={4}>
-           <img src={Anju}className="my-img"></img>
+           <img src={Anju}className="my-img" alt="my-img"></img>
             </Col>
           </Row>
         </Container>

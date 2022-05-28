@@ -58,7 +58,7 @@
 
 
 
-  @media (min-width: 1024px) {
+  @media (max-width: 1024px) {
     .contact-social {
       margin-top: 15rem !important;
      }

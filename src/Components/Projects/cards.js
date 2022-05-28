@@ -17,6 +17,7 @@ function Cards(props) {
           <AiOutlineLink /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
+
       </Card.Body>
     </Card>
   );

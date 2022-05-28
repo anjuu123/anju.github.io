@@ -28,7 +28,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="#" className="d-flex">
-          <SiOverleaf />
+          {/* <SiOverleaf /> */}
         </Navbar.Brand>
 
         <Navbar.Toggle
@@ -43,7 +43,7 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 Home
               </Nav.Link>
@@ -57,7 +57,7 @@ function NavBar() {
               >
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
           </Nav>
         </Navbar.Collapse>

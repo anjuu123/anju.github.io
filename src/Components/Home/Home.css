@@ -105,10 +105,10 @@
 
 
 
- @media (min-width: 768px) {
+ @media (max-width: 768px) {
   .home-header h1 {
     padding-top: 10px !important;
-    margin-left: 35px;
+    margin-left: 55px;
   }
   .home-about-body
   {
@@ -123,8 +123,19 @@
 
 .my-img
 {
-  width: 50rem;
-  height: 45rem;
-  margin-top: -100px;
+  width: 25rem;
+  height: 35rem;
+  margin-top: -10px;
+  border: 50%;
+ 
+}
+ }
+
+@media (max-width: 1024px) {
+  
+.my-img
+{
+  border: 50%;
+ 
 }
  }

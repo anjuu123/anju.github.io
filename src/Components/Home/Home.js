@@ -5,8 +5,8 @@ import './Home.css';
 import Skills from '../Skills/Skills'
 import { AiOutlineDownload } from "react-icons/ai";
 import Typewriter from 'typewriter-effect';
-import Resume from '../../Assests/Images/Anju Dhungana .pdf'
-import Anju from '../../Assests/Images/anjudhungana.jpg'
+// import Resume from '../../Assests/Images/Anju Dhungana .pdf'
+// import Anju from '../../Assests/Images/anjudhungana.jpg'
 import Projects from "../Projects/Projects";
 
 function Home() {
@@ -43,9 +43,8 @@ function Home() {
             </p>
             <Button 
             variant="danger"
-            href={Resume}
+            // href={Resume}
             target="_blank"
-            download="Anju Dhungana.pdf"
             style={{ maxWidth: "250px", marginTop:"15px",marginLeft:"15px" ,height:"50px", fontSize:"20px"}}
           >
             <AiOutlineDownload />

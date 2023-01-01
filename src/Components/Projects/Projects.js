@@ -5,6 +5,7 @@ import ecommerce from '../../Assests/Images/ecommerce.png'
 import bikri from '../../Assests/Images/bikri.png'
 import health from '../../Assests/Images/health.png'
 import musicPlayer from '../../Assests/Images/musicplayer.jpg'
+import covid from '../../Assests/Images/covid19.png'
 
 
 function Projects() {
@@ -64,8 +65,6 @@ function Projects() {
               link="https://anjuu123.github.io/covidd-tracker/"
             />
           </Col>
-         
-
         </Row>
       </Container>
   

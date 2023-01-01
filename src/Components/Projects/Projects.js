@@ -4,6 +4,7 @@ import Card from './cards'
 import ecommerce from '../../Assests/Images/ecommerce.png'
 import bikri from '../../Assests/Images/bikri.png'
 import health from '../../Assests/Images/health.png'
+import musicPlayer from '../../Assests/Images/musicplayer.jpg'
 
 
 function Projects() {
@@ -44,6 +45,17 @@ function Projects() {
               link="https://anjuu123.github.io/Bikri.github.io/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <Card
+            imgPath={musicPlayer}  
+            isBlog={false}
+              title="Music Player"
+              description="Music Player App build using HTML, CSS ,and Vanilla Javascript"
+              link="https://anjuu123.github.io/music-player/"
+            />
+          </Col>
+          
          
 
         </Row>

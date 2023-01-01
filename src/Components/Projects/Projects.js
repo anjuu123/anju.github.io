@@ -55,7 +55,15 @@ function Projects() {
               link="https://anjuu123.github.io/music-player/"
             />
           </Col>
-          
+          <Col md={4} className="project-card">
+            <Card
+            imgPath={covid}  
+            isBlog={false}
+              title="Covid-19 Cases"
+              description="Covid-19 realtime case application build using HTML, CSS ,and Vanilla Javascript"
+              link="https://anjuu123.github.io/covidd-tracker/"
+            />
+          </Col>
          
 
         </Row>
